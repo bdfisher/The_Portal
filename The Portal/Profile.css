@@ -1,0 +1,268 @@
+.card {
+  box-shadow: rgba(0, 0, 0, 0.2);
+  max-width: 275px;
+  margin: 0;
+  text-align: left;
+  font-family: arial;
+ background-image: url("https://s3.envato.com/files/212542380/Dark Background 01_preview1 .JPG");    
+}
+
+.title {
+  color: grey;
+  font-size: 15px;
+}
+* {
+    box-sizing: border-box;
+}
+
+body { 
+    background-image: url("https://www.jpl.nasa.gov/assets/images/content/tmp/home/missions_bg_image.jpg");
+    background-repeat: no-repeat;
+	background-size: 100%;
+    overflow:hidden;
+}
+
+.column {
+    float: left;
+    height: 3000px;
+    column-gap: 0;
+}
+
+.left {
+  width: 23%;
+column-gap: 0;
+}
+
+.right {
+  width: 77%;
+    column-gap: 0;
+}
+.container {
+    border: 1px solid black;
+    background-color: dimgray;
+    border-radius: 5px;
+    padding: 0px;
+}
+.container: after {
+    content: "";
+    clear: both;
+    display: table;
+}
+    .container img {
+    float: left;
+    max-width: 40px;
+    width: 100%;
+    margin-right: 13px;
+    border-radius: 50%;
+}
+    p {color:greenyellow;
+     font-size: 20px;
+    }
+    h1 {text-align: center;
+color: whitesmoke;
+}
+.desc {color: darkcyan;
+    font-style:bold;}
+h3 {text-align: center;
+color: darkcyan
+}
+.createpost {text-decoration: none;}
+a {align-content: left;
+}
+.time-right {
+    float: right;
+    color: darkcyan;
+}
+.friends {
+    text-align: center;
+    color:darkcyan;
+}
+.footer {color:greenyellow;
+  float: right;
+    height: 35px;
+    text-align: right;
+    width: 200px;
+    font-size: 15px;
+}
+
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+.log {
+    background-color: darkcyan;
+    color: white;
+     float: right;
+    height: 35px;
+    text-align: right;
+    width: 200px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    padding: 12px 28px;
+    font-size: 12px;
+}
+
+.log2 {
+    background-color: black;
+    color: white;
+     float: right;
+    height: 35px;
+    text-align: right;
+    width: 200px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    padding: 12px 28px;
+    font-size: 12px;
+}
+
+.log:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: red;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 40%;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+.login {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: greenyellow; 
+    padding-top: 60px;
+}
+
+.login4 {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-image: url("apost.png");
+    padding-top: 60px;
+}
+.login-content {
+    background-color: darkcyan;
+    margin: 0% auto 25% auto; 
+    width: 30%; 
+}
+
+
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+
+@media screen and (max-width: 300px) {
+    .cancelbtn {
+       width: 100%;
+    }
+}
+.submit {background-color: black;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: darkcyan;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+span {color: greenyellow; }
+.logoimg {text-align: left;
+width: 50%;
+
+}
+.headerlogo {border: none;
+padding: none;}

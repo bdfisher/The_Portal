@@ -1,0 +1,89 @@
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid darkcyan;
+    box-sizing: border-box;
+}
+label, p {color: greenyellow;}
+p {text-align: left;
+font-size: 19px;
+font-family: Bookman Old Style;}
+.big {text-align: left;
+color: white;
+font-family: Palatino;}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    float: right;
+}
+.log4 {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    float: right;
+}
+body { 
+    background-image: url("https://www.jpl.nasa.gov/assets/images/content/tmp/home/missions_bg_image.jpg");
+    background-repeat: no-repeat;
+	background-size: 100%;
+    
+}
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+
+.cancelbtn,.signupbtn {
+    float: left;
+    width: 50%;
+}
+
+.vl {border-left: 2px solid greenyellow;}
+.container {
+    padding: 16px;
+}
+
+h2 {color: greenyellow;
+    display: block;
+   text-align: center;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+}
+.headerlogo {
+border: none;
+    float: center;
+    width: 230px;
+    height: 160px; 
+}
+
+.infopic {
+height: 150px;
+width:400px;
+padding-left: 80px;
+padding-bottom: 0px;
+border: none;}
+.infopic2 {
+height: 200px;
+width:400px;
+padding-left: 80px;
+padding-bottom: 0px;
+display: inline-block;
+border: none;}
+.infor {float: left;
+width: 170px;
+font-size: 15px;
+font-family: Bookman Old Style;}

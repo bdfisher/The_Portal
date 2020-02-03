@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtmll/DTD/xhtmll-transitional.dtd">
+ <html xmlns= "http://www.w3.org.1999/xhtml">
+    <head>
+     <title>Search..</title>
+        <link rel="stylesheet" href="search.css" type="text/css" />
+     </head> <body>
+          <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Home</a>
+  <a href="Search.html">Search</a>
+              <a href="login.html">Log In</a>
+              <a href="Create Account.html">Create Account</a>
+</div>
+     <a href="index.html"><img src="theportal2.png" alt="The Portal" width="100px" height="75px" class="headerlogo" /> </a>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+     <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for users.." title="Type in a name">
+
+<ul id="myUL">
+  <li><a href="Luke Skywalker.html">Luke Skywalker</a></li>
+  <li><a href="Spock.html">Spock</a></li>
+
+  <li><a href="robocop.html">Alex Murphy</a></li>
+  <li><a href="Marty McFly.html">Martin McFly</a></li>
+
+  <li><a href="Starlord.html">Peter Quill</a></li>
+    <li><a href="Amy Pond2.html">Amy Pond</a></li>
+</ul>
+
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+
+        }
+    }
+}
+</script>
+     </body>
+</html>

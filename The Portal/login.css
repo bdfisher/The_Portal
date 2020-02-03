@@ -1,0 +1,149 @@
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+
+@media screen and (max-width: 300px) {
+    .cancelbtn {
+       width: 100%;
+    }
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: darkcyan;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+span {color: darkcyan; 
+   text-align:left;
+    padding-bottom: 0px;
+}
+form {
+    background-color: darkcyan;
+    width: 40%;
+    height: 40%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+    color: black;
+}
+
+.goback {float: left;
+background-color: darkcyan;
+color:greenyellow;
+width:62px;
+font-size: 14px;
+font-family: Palatino;
+padding-right: 0;
+text-align: left;
+padding-left: 5px;
+font-weight: bold;}
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+body { background-color:greenyellow;
+}
+.headerlogo {display:block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 23%;
+    height: 20%;
+    border: none;
+    padding-bottom: 20px;
+    padding-left: 0px;
+}
+#top {background-image: url("https://www.jpl.nasa.gov/assets/images/content/tmp/home/missions_bg_image.jpg");
+    background-repeat: no-repeat;
+width: 100%;
+    height:5%;}

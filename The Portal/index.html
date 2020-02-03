@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtmll/DTD/xhtmll-transitional.dtd">
+ <html xmlns= "http://www.w3.org.1999/xhtml">
+    <head>
+     <title>The Portal- Home Page</title>
+        <link rel="stylesheet" href="feed.css" type="text/css" />
+     </head> <body>
+     <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Home</a>
+  <a href="Search.html">Search</a>
+         <a href="login.html">Log In</a>
+  <a href="Create Account.html">Create Account</a>
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+     <form class="ihcc" action="Search.html"><input type="submit" value="Search.."> </form> 
+     <img src="theportal2.png" alt="The Portal" width="300px" height="150px" class="headerlogo" /> 
+  
+     <button class="log" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+<div id="id01" class="login">
+  
+  <form class="login-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Login">&times;</span>
+      <img src="img_avatar3.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="imgcontainer">
+      <label><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label><b>Password</b></label>    
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+        <button type="submit" class="log2"><center>Login</center></button>
+      <input type="checkbox" checked="checked"> Remember me
+    </div>
+
+    <div class="login-content">
+        <center> <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button> </center>
+    </div>
+  </form>
+		</div>  
+         <h1>Recent Posts</h1>
+    <hr />
+     <div class="container">
+         <a href="Amy Pond2.html"> <img src="https://i.pinimg.com/736x/11/b7/24/11b72419825820cf94c89b058392bfdc--doctor-who-amy-pond-amy-pond-hair.jpg" alt="Amy"> </a>
+      <p >This website is awesome!</p>  
+    <span class="time-right">Just Now</span>
+</div> <br />
+     <div class="container">
+  <a href="Luke Skywalker.html">
+      <img src="https://vignette.wikia.nocookie.net/starwars/images/d/d9/Luke-rotjpromo.jpg/revision/latest/scale-to-width-down/350?cb=20091030151422" alt="Luke"> </a>
+  <p>Hey everybody! Just found out that Leia is my twin sister. #itsawkwardnow <br /><span class="like" onclick="alert('Liked')">Like</span> <span class="like" onclick="alert('Post Shared')">Share</span></p>
+    <span class="time-right">Luke Skywalker, Tuesday, 12:30pm</span> 
+</div> <br />
+         <div class="container">
+             <a href="Starlord.html">
+  <img src="https://vignette.wikia.nocookie.net/marvelmovies/images/5/59/Star-Lord_GOTG_Vol_2.jpg/revision/latest/scale-to-width-down/280?cb=20170505225132" alt="Peter Quill"> </a>
+  <p>R.I.P. Yondu. He gave his life for mine. Thank you for being a great father figure to me. <br /><span class="like" onclick="alert('Liked')">Like</span> <span class="like" onclick="alert('Post Shared')">Share</span></p>
+    <span class="time-right">Peter Jason Quill aka Star-Lord, Sunday, 6:13pm</span>
+</div> <br /> 
+         <div class="container">
+             <a href="robocop.html">
+                 <img src="https://vignette.wikia.nocookie.net/robocop/images/a/aa/RoboMurph1987.jpg/revision/latest?cb=20160822053647" alt="Alex Murphy"> </a>
+             <p>To all you criminals out there, you might want to turn yourselves in so you don't have to face me. <br /><span class="like" onclick="alert('Liked')">Like</span> <span class="like" onclick="alert('Post Shared')">Share</span></p>
+    <span class="time-right">Alex Murphy aka RoboCop, Wednesday, 2:32am</span>
+</div> <br />
+    <div class="container">
+ <a href="Marty McFly.html">
+     <img src="https://upload.wikimedia.org/wikipedia/en/d/d8/Michael_J._Fox_as_Marty_McFly_in_Back_to_the_Future%2C_1985.jpg" alt="Marty McFly"> </a>
+  <p>I love these self-lacing Nike's!   <br /><span class="like" onclick="alert('Liked')">Like</span> <span class="like" onclick="alert('Post Shared')">Share</span></p>
+    <span class="time-right">Martin Seamus "Marty" McFly Sr., Wednesday, 10:59pm</span>
+</div> <br />
+    <div class="container">
+ <a href="Spock.html">
+     <img src="https://vignette.wikia.nocookie.net/memoryalpha/images/2/27/Spock%2C_2267.jpg/revision/latest?cb=20070802000211&path-prefix=en" alt="Spock"> </a>
+  <p>#dif-tor heh smusma  <br /><span class="like" onclick="alert('Liked')">Like</span> <span class="like" onclick="alert('Post Shared')">Share</span></p>
+    <span class="time-right">Spock, Saturday, 6:13am</span>
+</div> <br />
+    <br />
+   <hr />
+     <p class="footer">Date: &nbsp; <script> document.write(new Date().toLocaleDateString()); </script></p>
+           <audio controls >
+         <source src="Byte Jam audio.mp3" type="audio/mpeg"> </audio>
+     </body> </html>

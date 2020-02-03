@@ -1,0 +1,60 @@
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid darkcyan;
+    box-sizing: border-box;
+}
+label, p {color: greenyellow;}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+body { 
+    background-image: url("https://www.jpl.nasa.gov/assets/images/content/tmp/home/missions_bg_image.jpg");
+    background-repeat: no-repeat;
+    
+}
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+
+.cancelbtn,.signupbtn {
+    float: left;
+    width: 50%;
+}
+
+
+.container {
+    padding: 16px;
+}
+
+h2 {color: greenyellow;
+    display: block;
+    margin: auto;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+.headerlogo {
+border: none;
+}
+.logoimg {text-align: center;}

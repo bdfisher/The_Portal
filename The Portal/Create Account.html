@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtmll/DTD/xhtmll-transitional.dtd">
+ <html xmlns= "http://www.w3.org.1999/xhtml">
+ <head>
+<title>Create Account</title>
+<link rel="stylesheet" href="caccount.css" type="text/css" />
+</head>
+<body>
+    <div class="logoimg">  <a href="index.html">  <img src="theportal2.png" alt="The Portal" width="300px" height="154px" class="headerlogo" /></a> </div>
+<h2>Create Account</h2>
+<form action="/action_page.php" style="border:1px solid darkcyan">
+  <div class="container">
+    <label><b>First and Last Name</b></label>
+    <input type="text" placeholder="John Smith" name="name" required>
+
+    <label><b>Occupation</b></label>
+    <input type="text" placeholder="Science Genius" name="job" required>
+
+    <label><b>Home Town</b></label>
+    <input type="text" placeholder="Whoville" name="htown" required>
+    <label><b>Parents</b></label>
+    <input type="text" placeholder="Tabetha and Augustus" name="pname" required>
+        <label><b>Username</b></label>
+      <input type="text" placeholder="uname" name="Apond123" required>
+        <label><b>Password</b></label>
+      <input type="text" placeholder="pswd123" name="pondamy321" required>
+    <input type="checkbox" checked="checked"> <b style="color:greenyellow;">Remember me</b>
+    <p><b>By creating an account you agree to our Terms & Privacy.</b></p>
+
+    <div class="clearfix">
+      <button type="button" onclick="goBack()" class="cancelbtn">Cancel</button>
+     <button type="submit" class="signupbtn" onclick="location.href='Amy Pond.html'; alert('Account Created')">Sign Up</button>
+    </div>
+  </div>
+</form>
+    <script>
+    function goBack() {
+    window.history.back();}
+    </script>
+</body>
+</html>

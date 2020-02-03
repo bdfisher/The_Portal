@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtmll/DTD/xhtmll-transitional.dtd">
+ <html xmlns= "http://www.w3.org.1999/xhtml">
+    <head>
+     <title>Login</title>
+        <link rel="stylesheet" href="login.css" type="text/css" />
+     </head><body>
+<div id="top">
+    <button class="goback" onclick="goBack()">Go Back</button>
+      <img src="theportal2.png" alt="The Portal" width="300px" height="154px" class="headerlogo"  align="top"/> </div>
+     <form action="/action_page.php">
+  <div class="imgcontainer">
+    <img src="image_avatar.jpg" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    <label><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+        
+    <button type="submit" onclick="location.href='index.html'">Login</button>
+    <input type="checkbox" checked="checked"> Remember me
+  </div>
+
+  <div class="container" style="background-color:darkcyan">
+    <button type="button" class="cancelbtn" onclick="goBack()">Cancel</button>
+  </div>
+</form>
+     <script>
+     function goBack() {
+     window.history.back();
+     }
+     </script>
+     </body>
+</html>
